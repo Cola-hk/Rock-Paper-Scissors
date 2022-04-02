@@ -1,0 +1,71 @@
+*{
+    user-select: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+h1 {
+    color: #212121;
+    font-weight: bold;
+}
+
+header {
+    background: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #3f434e;
+}
+
+.score-board {
+    margin: 20px auto;
+    padding: 12px 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 55px;
+    position: relative;
+}
+
+#text{
+    text-align: center;
+    color:white;
+    font-size: 34px;
+    margin: 75px ;
+    font: sans-serif;
+    font-weight: bold;
+}
+
+#user-label {
+    font-size: 26px;
+    position: absolute;
+    top: 30px;
+    left: -75px;
+}
+
+#computer-label {
+    font-size: 26px;
+    position: absolute;
+    top: 30px;
+    right: -70px;
+}
+
+.choices {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
